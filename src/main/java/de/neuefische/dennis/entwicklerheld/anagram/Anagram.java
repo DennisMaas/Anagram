@@ -5,7 +5,7 @@ import java.util.Arrays;
 public class Anagram {
 
     public static boolean isAnagram(String firstWord, String secondWord) {
-        //make spaces between words go away (eat sleep -> eatsleep)
+        //make spaces between words go away (first Word -> firstWord)
         firstWord.replaceAll("\\s", "");
         secondWord.replaceAll("\\s","");
 
